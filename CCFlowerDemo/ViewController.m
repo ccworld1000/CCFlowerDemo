@@ -47,6 +47,7 @@
     CVPixelBufferRelease(buffer);
     
     buffer = [image2 buffer];
+    output = [self.flower predictionFromData:buffer error:nil];
     classLabel = output.classLabel;
     per = [output.prob[classLabel] doubleValue] * 100;
     self.text2.text = [NSString stringWithFormat:@"It's a %@ at %ld%%", classLabel, (NSInteger) per];
