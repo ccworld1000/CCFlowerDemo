@@ -6,7 +6,9 @@ https://github.com/ccworld1000/CCFlowerDemo
 
 
 
-Right and Wrong
+## Discrimination of Flowers Using Existing AI Model.
+
+## The main first picture was actually a lotus flower, but it was identified as a cyclamen.
 
 
 
